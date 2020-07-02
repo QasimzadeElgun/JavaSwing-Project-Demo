@@ -1,0 +1,12 @@
+<Context>
+    <Resource name="jdbc/Test"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxActive="50"
+              maxIdle="30"
+              maxWait="10000"
+              username="root"
+              password="root"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://127.0.0.1:3306/?user=root>
+</Context>
